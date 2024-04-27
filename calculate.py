@@ -15,3 +15,11 @@ elif c=='/':
     print("result= ",quotient)
 else:
     print("operator not valid")
+def square(num):
+    return num*num
+print ("to print square input s")
+s=input()
+if s==s:
+    n=int(input("enter number"))
+    result= square(n)
+    print("result =", result)
