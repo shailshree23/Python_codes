@@ -1,0 +1,10 @@
+import random 
+question=input("enter your question")
+r=random.randint(0,2)
+if r==0:
+    print("YES")
+elif r==1:
+    print("NO")
+else:
+    print("Ask again Later")
+    
